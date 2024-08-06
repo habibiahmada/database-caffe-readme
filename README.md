@@ -129,5 +129,50 @@ Basis data kafe ini memiliki beberapa tabel utama yang saling berhubungan. Setia
 Setiap entitas ditandai dengan Primary Key (PK) yang unik dan relasi antara entitas ditandai dengan Foreign Key (FK). Relasi ini menunjukkan bagaimana tabel-tabel tersebut saling berhubungan, memastikan integritas referensial dalam basis data.
 ```
 ```
+# Tujuan dan Manfaat Database Kafe
 
-Dokumen README ini memberikan penjelasan terstruktur tentang bagaimana tabel-tabel dalam basis data kafe saling berhubungan melalui Primary Key dan Foreign Key, serta menjelaskan atribut-atribut penting dalam setiap tabel.
+Database kafe ini dibuat untuk mengelola dan menyimpan data yang berhubungan dengan operasi sehari-hari dari sebuah kafe. Berikut adalah tujuan dan manfaat dari database ini:
+
+## Tujuan Database Kafe
+
+1. **Mengelola Data Pelanggan**:
+   - Menyimpan informasi kontak pelanggan seperti nama, email, dan nomor telepon.
+   - Melacak pesanan yang dilakukan oleh setiap pelanggan.
+   - Meningkatkan layanan pelanggan dengan memberikan informasi yang cepat dan akurat.
+
+2. **Mengelola Data Pegawai**:
+   - Menyimpan informasi tentang pegawai termasuk nama, jabatan, email, dan nomor telepon.
+   - Melacak pesanan yang ditangani oleh setiap pegawai.
+   - Membantu dalam penjadwalan dan pengelolaan tugas pegawai.
+
+3. **Mengelola Data Produk**:
+   - Menyimpan informasi produk yang dijual di kafe termasuk nama, harga, dan kategori produk.
+   - Mengelompokkan produk berdasarkan kategori untuk memudahkan manajemen inventaris.
+   - Memantau stok dan penjualan produk.
+
+4. **Mengelola Data Kategori**:
+   - Menyimpan dan mengelompokkan produk ke dalam kategori yang sesuai.
+   - Mempermudah pencarian dan penyusunan menu produk.
+
+5. **Mengelola Data Pesanan**:
+   - Menyimpan informasi detail tentang setiap pesanan yang dibuat, termasuk tanggal pesanan, pelanggan yang memesan, dan pegawai yang menangani pesanan.
+   - Melacak status pesanan dan memantau aliran pesanan dari pembuatan hingga penyelesaian.
+
+6. **Mengelola Data Detail Pesanan**:
+   - Menyimpan rincian produk yang dipesan dalam setiap pesanan, termasuk jumlah dan subtotal untuk setiap produk.
+   - Memastikan keakuratan dalam perhitungan total pesanan dan stok produk.
+
+7. **Mengelola Data Pembayaran**:
+   - Menyimpan informasi tentang pembayaran yang diterima untuk setiap pesanan, termasuk jenis pembayaran, jumlah, dan tanggal pembayaran.
+   - Memastikan bahwa semua pesanan telah dibayar dan memantau aliran pendapatan.
+
+## Manfaat Database Kafe
+
+- **Efisiensi Operasional**: Dengan database ini, proses pengelolaan pesanan, produk, pelanggan, dan pegawai menjadi lebih terstruktur dan efisien, mengurangi kesalahan manual dan mempercepat layanan.
+- **Analisis Data**: Memungkinkan analisis data untuk pengambilan keputusan yang lebih baik, seperti menentukan produk terlaris, memahami kebiasaan pelanggan, dan mengevaluasi kinerja pegawai.
+- **Peningkatan Layanan Pelanggan**: Dengan memiliki informasi yang terorganisir, kafe dapat memberikan layanan yang lebih personal dan responsif kepada pelanggan.
+- **Penyimpanan Terpusat**: Semua data tersimpan di satu tempat yang terorganisir, sehingga memudahkan pencarian dan pembaruan data.
+- **Keamanan Data**: Database memberikan mekanisme untuk melindungi data sensitif pelanggan dan transaksi kafe, memastikan integritas dan privasi data.
+
+Dengan demikian, database kafe ini dirancang untuk mengoptimalkan manajemen operasional kafe, meningkatkan kepuasan pelanggan, dan mendukung pertumbuhan bisnis melalui pengelolaan data yang efektif dan efisien.
+
